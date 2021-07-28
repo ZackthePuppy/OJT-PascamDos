@@ -62,8 +62,13 @@ background-size: cover;
       <li class="nav-item">
         <a class="nav-link" href="../Announcements/announcements.php">ANNOUNCEMENTS</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#"></a>
+      <li class="dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">MORE
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">COVID-19 Awareness</a></li>
+          <li><a href="#">Hotlines</a></li>
+        </ul>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">

@@ -8,7 +8,7 @@
     color: rgba(255, 255, 255, 0.8);
 }
 
-.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active, {
     color: #ffffff;
 }
 .nav-list li {
@@ -61,43 +61,30 @@ ul, ol {
           <div class="row row-30">
             <div class="col-md-4 col-xl-5">
               <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="../CSS/logo.png" alt="" width="100" height="100" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
-                <p>We are a MOST CHILD-FRIENDLY baranggay and we are very happy to serve you!</p>
+                <p>We are a MOST CHILD-FRIENDLY barangay and we are very happy to serve you!</p>
                 <!-- Rights-->
                 <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span>Bengking & ZTP</span><span>. </span><span>All Rights Reserved.</span></p>
               </div>
             </div>
             <div class="col-md-4">
-              <h5>Contacts</h5>
               <dl class="contact-list">
                 <dt>Address:</dt>
                 <dd>Pasong Camachile II, General Trias, Cavite</dd>
               </dl>
               <dl class="contact-list">
                 <dt>email:</dt>
-                <dd><a href="mailto:#">insertemail@yahoo.com</a></dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>phones:</dt>
-                <dd><a href="tel:#">09123456789</a> 
-                </dd>
+                <dd><a href="mailto:#">lolit1628@gmail.com</a></dd>
               </dl>
             </div>
             <div class="col-md-4 col-xl-3">
               <h5>Links</h5>
               <ul class="nav-list">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="../About/about.php">About</a></li>
+                <li><a href="../Services/services.php">Services</a></li>
                 <li><a href="#">Contacts</a></li>
-                <li><a href="#">Pricing</a></li>
+                <li><a href="https://www.facebook.com/brgypasongcamachileII/" target="_blank">Facebook Page</a></li>
               </ul>
             </div>
           </div>
-        </div>
-        <div class="row no-gutters social-container">
-          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
-          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
-          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
-          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
         </div>
       </footer>
