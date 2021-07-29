@@ -81,7 +81,7 @@ ul, ol {
               <ul class="nav-list">
                 <li><a href="../About/about.php">About</a></li>
                 <li><a href="../Services/services.php">Services</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="../Hotlines/hotlines.php">Contacts</a></li>
                 <li><a href="https://www.facebook.com/brgypasongcamachileII/" target="_blank">Facebook Page</a></li>
               </ul>
             </div>

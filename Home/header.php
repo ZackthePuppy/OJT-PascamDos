@@ -12,7 +12,6 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js">
 
-
 <style type="text/css">
   @font-face {
   font-family: ChalkFont;
@@ -66,10 +65,12 @@ background-size: cover;
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">MORE
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">COVID-19 Awareness</a></li>
-          <li><a href="#">Hotlines</a></li>
+          <a class="dropdown-item" href="../Covid/covid.php">COVID-19 Awareness</a>
+          <a class="dropdown-item" href="../Hotlines/hotlines.php">Hotlines</a>
         </ul>
       </li>
+
+
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
