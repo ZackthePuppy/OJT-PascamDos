@@ -15,6 +15,8 @@
 
 <img src="../CSS/services2.jpg" width="400" height="600" class="d-block container" alt="...">
 
+
+
 <div style="text-align: center !important;" class="container">
 <br>
 <p>
@@ -25,7 +27,7 @@
 <div class="collapse" id="collapseExample">
   <div class="card card-body">
   	<h4>
-    • Urban agriculture (three planting) <br>
+    • Urban agriculture (tree planting) <br>
 	• Punlaan sa barangay <br>
 	• Gulayan sa bahay <br>
 	• Gulayan sa paaralan <br>
@@ -56,12 +58,37 @@
 	• Deep well (Poso) <br>
 	• Public address system <br>
 	• Mamamayan Kontra Basura(MKB) <br>
+  <a href="#" class="" data-toggle="modal" data-target="#myModal">Open Modal</a>
 	</h4>
   </div>
 </div>
 </div>
 
 <br>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
 
 
 </body>

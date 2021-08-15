@@ -114,7 +114,7 @@ header {
 
     <header class=" text-center py-5 mb-4 new">
         <div class="container">
-            <h1 class="font-weight-light text-white" style="font-family: ChalkFont !important; text-align: center;">Barangay Captain Corner</h1>
+            <h1 class="font-weight-light text-white" style="font-family: ChalkFont !important; text-align: center;">Barangay Official Corner</h1>
         </div>
     </header>
     <div class="container ">
@@ -124,7 +124,7 @@ header {
                 <div class="card border-0 ">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="100" height="170" class="card-img-top" alt="avatar">
+                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="110" height="200" class="card-img-top" alt="avatar">
                                 <div class="card-body text-center ">
                                     <h5 class="card-title mb-0">Hon. Jesieto S. Fauni</h5>
                                     <div class="card-text text-black-50"></div>
@@ -143,7 +143,7 @@ header {
                 <div class="card border-0 ">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="100" height="170" class="card-img-top" alt="avatar">
+                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="110" height="200" class="card-img-top" alt="avatar">
                                 <div class="card-body text-center ">
                                     <h5 class="card-title mb-0">Kherby M. Columna</h5>
                                     <div class="card-text text-black-50"></div>
@@ -163,7 +163,7 @@ header {
                 <div class="card border-0 ">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="100" height="170" class="card-img-top" alt="avatar">
+                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="110" height="200" class="card-img-top" alt="avatar">
                                 <div class="card-body text-center ">
                                     <h5 class="card-title mb-0">Jimmy S. Carampot</h5>
                                     <div class="card-text text-black-50"></div>
@@ -183,7 +183,7 @@ header {
                 <div class="card border-0 ">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="100" height="170" class="card-img-top" alt="avatar">
+                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="110" height="200" class="card-img-top" alt="avatar">
                                 <div class="card-body text-center ">
                                     <h5 class="card-title mb-0">Eduardo P. Barzaga</h5>
                                     <div class="card-text text-black-50"></div>
@@ -212,7 +212,7 @@ header {
                 <div class="card border-0 ">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="100" height="170" class="card-img-top" alt="avatar">
+                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="110" height="200" class="card-img-top" alt="avatar">
                                 <div class="card-body text-center ">
                                     <h5 class="card-title mb-0">Divina S. Colocado</h5>
                                     <div class="card-text text-black-50"></div>
@@ -232,7 +232,7 @@ header {
                 <div class="card border-0 ">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="100" height="170" class="card-img-top" alt="avatar">
+                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="110" height="200" class="card-img-top" alt="avatar">
                                 <div class="card-body text-center ">
                                     <h5 class="card-title mb-0">Nemesio P. Bautista</h5>
                                     <div class="card-text text-black-50"></div>
@@ -252,7 +252,7 @@ header {
                 <div class="card border-0 ">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="100" height="170" class="card-img-top" alt="avatar">
+                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="110" height="200" class="card-img-top" alt="avatar">
                                 <div class="card-body text-center ">
                                     <h5 class="card-title mb-0">Jay T. Madlangbayan</h5>
                                     <div class="card-text text-black-50"></div>
@@ -272,7 +272,7 @@ header {
                 <div class="card border-0 ">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="100" height="170" class="card-img-top" alt="avatar">
+                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="110" height="200" class="card-img-top" alt="avatar">
                                 <div class="card-body text-center ">
                                     <h5 class="card-title mb-0">Edgardo S. De Guzman</h5>
                                     <div class="card-text text-black-50"></div>
@@ -298,7 +298,7 @@ header {
                 <div class="card border-0 ">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="100" height="170" class="card-img-top" alt="avatar">
+                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="110" height="200" class="card-img-top" alt="avatar">
                                 <div class="card-body text-center ">
                                     <h5 class="card-title mb-0">Jayvie Arisa I. Simpan</h5>
                                     <div class="card-text text-black-50"></div>
@@ -318,7 +318,7 @@ header {
                 <div class="card border-0 ">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="100" height="170" class="card-img-top" alt="avatar">
+                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="110" height="200" class="card-img-top" alt="avatar">
                                 <div class="card-body text-center ">
                                     <h5 class="card-title mb-0">Lolita R. Aquino</h5>
                                     <div class="card-text text-black-50"></div>
@@ -338,7 +338,7 @@ header {
                 <div class="card border-0 ">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="100" height="170" class="card-img-top" alt="avatar">
+                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="110" height="200" class="card-img-top" alt="avatar">
                                 <div class="card-body text-center ">
                                     <h5 class="card-title mb-0">Manuel C. Saria</h5>
                                     <div class="card-text text-black-50"></div>
@@ -358,7 +358,7 @@ header {
                 <div class="card border-0 ">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="100" height="170" class="card-img-top" alt="avatar">
+                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="110" height="200" class="card-img-top" alt="avatar">
                                 <div class="card-body text-center ">
                                     <h5 class="card-title mb-0">Lester Sean Brolagda</h5>
                                     <div class="card-text text-black-50"></div>
@@ -384,7 +384,7 @@ header {
                 <div class="card border-0 ">
                     <div class="flip-card">
                         <div class="flip-card-inner">
-                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="100" height="170" class="card-img-top" alt="avatar">
+                            <div class="flip-card-front"> <img src="../CSS/Members/member1.jpg" width="110" height="200" class="card-img-top" alt="avatar">
                                 <div class="card-body text-center ">
                                     <h5 class="card-title mb-0">Ezra Fernando Miranda</h5>
                                     <div class="card-text text-black-50"></div>

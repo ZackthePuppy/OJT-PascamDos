@@ -37,9 +37,11 @@ background-size: cover;
 </head>
 <body>
 
-<h1 style="font-family: ChalkFont !important; text-align: center;">BRGY. PASONG CAMACHILE II UNOFFICIAL WEBSITE
+<h2 style="font-family: ChalkFont !important; text-align: center;">
 <img width="150" height="150" alt="" class="header-image" src="../CSS/logo.png">
-</h1>
+<b>BRGY. PASONG CAMACHILE II UNOFFICIAL WEBSITE</b> <br>
+<h3 style="font-family: ChalkFont !important; text-align: center;">Pasong Camachile II, General Trias, Cavite</h3>
+</h2>
 
 <div class="topnav" id="myHeader">
 <nav class="navbar navbar-expand-lg navbar-dark bg-success" id="myHeader">
@@ -53,7 +55,7 @@ background-size: cover;
         <a class="nav-link" href="../About/about.php">ABOUT BRGY.</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../BRGYCaptain/brgycorner.php">BRGY CAPTAIN CORNER</a>
+        <a class="nav-link" href="../BrgyCaptain/brgycorner.php">BRGY OFFICIAL CORNER</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="../Services/services.php">SERVICES</a>
@@ -72,9 +74,21 @@ background-size: cover;
 
 
     </ul>
+    
+    <ul class="navbar-nav mr-auto" style="font-size: 20px;">
+      <li class="nav-item">
+        <a class="nav-link" href="../SuperAdmin/login.php">LOGIN</a>
+      </li>
+
+
+    </ul>
+
+    <?php /*
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
     </form>
+    */?>
+
   </div>
 </nav>
 </div>
