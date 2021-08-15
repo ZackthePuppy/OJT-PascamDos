@@ -40,7 +40,7 @@ background-size: cover;
 <h2 style="font-family: ChalkFont !important; text-align: center;">
 <img width="150" height="150" alt="" class="header-image" src="../CSS/logo.png">
 <b>BRGY. PASONG CAMACHILE II UNOFFICIAL WEBSITE</b> <br>
-<h3 style="font-family: ChalkFont !important; text-align: center;">Pasong Camachile II, General Trias, Cavite</h3>
+<h3 style="font-family: ChalkFont !important; text-align: center;"><b>Pasong Camachile II, General Trias, Cavite</b></h3>
 </h2>
 
 <div class="topnav" id="myHeader">

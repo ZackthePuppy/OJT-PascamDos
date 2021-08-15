@@ -134,7 +134,7 @@ form {
     <h2 style="border-top: 3px solid gray; padding-top: 1%;" class="my-5">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>! You can manage announcements here.</h2>
 
 
-    <?php $results = mysqli_query($link, "SELECT * FROM announcements order by created_at desc"); ?>
+    <?php $results = mysqli_query($link, "SELECT * FROM announcements order by id desc"); ?>
     <table>
     <thead>
         <tr>

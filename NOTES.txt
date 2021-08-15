@@ -1,0 +1,36 @@
+NOTES:
+Edit the dbname in config.php in SuperAdmin folder
+
+
+add these in mysql (copy paste)
+
+CREATE TABLE users (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE announcements (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    title varchar (255),
+    content LONGTEXT NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+
+ACCOUNTS:
+admingheve
+adminangelo
+adminali
+adminjayp
+adminnatalia
+adminmayk
+
+password: password
+
+Super admin account
+superadmin
+superadminmayk
+
+password: defaultpassword

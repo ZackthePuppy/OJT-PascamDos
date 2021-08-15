@@ -127,7 +127,7 @@ form {
     <h2 style="border-top: 3px solid gray; padding-top: 1%;" class="my-5">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>! You can manage admin accounts here.</h2>
 
 
-    <?php $results = mysqli_query($link, "SELECT * FROM users where userlevel = 2 order by created_at"); ?>
+    <?php $results = mysqli_query($link, "SELECT * FROM users where userlevel = 2 order by id desc"); ?>
     <table>
     <thead>
         <tr>
