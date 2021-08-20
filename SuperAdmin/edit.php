@@ -76,11 +76,60 @@ else if (isset($_POST['add'])) {
 else if (isset($_POST['updateannounce'])) {
     $id = $_POST['id'];
     $title = $_POST['title'];
-    $content = $_POST['content'];
+    $content = trim($_POST["content"]);
 
     mysqli_query($link, "UPDATE announcements SET title='$title', content='$content' WHERE id=$id");
     header('location: admin.php');
 }
+
+else if (isset($_POST['addservices'])) {
+    $title = $_POST['title'];
+    $type = $_POST['type'];
+
+    mysqli_query($link, "INSERT INTO services (title, type) VALUES ('$title', '$type')"); 
+    header('location: manageservices.php');
+}
+
+else if (isset($_POST['updateservices'])) {
+    $id = $_POST['id'];
+    $title = $_POST['title'];
+    $type = $_POST['type'];
+
+    mysqli_query($link, "UPDATE services SET title='$title', type='$type' WHERE id=$id");
+    header('location: manageservices.php');
+}
+
+else if (isset($_GET['delservices'])) {
+    $id = $_GET['delservices'];
+    mysqli_query($link, "DELETE FROM services WHERE id=$id");
+    header('location: manageservices.php');
+}
+
+else if (isset($_GET['delofficials'])) {
+    $id = $_GET['delofficials'];
+    mysqli_query($link, "DELETE FROM officials WHERE id=$id");
+    header('location: manageofficials.php');
+}
+
+else if (isset($_POST['addofficials'])) {
+    $title = $_POST['title'];
+    $content = nl2br(htmlentities($_POST['content'], ENT_QUOTES, 'UTF-8'));
+    $facebook = $_POST['facebook'];
+
+    mysqli_query($link, "INSERT INTO officials (title, content, facebook) VALUES ('$title', '$content', '$facebook')"); 
+    header('location: manageofficials.php');
+}
+
+else if (isset($_POST['updateofficials'])) {
+    $id = $_POST['id'];
+    $title = $_POST['title'];
+    $content = nl2br(htmlentities($_POST['content'], ENT_QUOTES, 'UTF-8'));
+    $facebook = $_POST['facebook'];
+
+    mysqli_query($link, "UPDATE officials SET title='$title', content='$content', facebook='$facebook' WHERE id=$id");
+    header('location: manageofficials.php');
+}
+
 
 ?>
 

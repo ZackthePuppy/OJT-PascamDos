@@ -15,7 +15,7 @@ include 'config.php'
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Super Admin</title>
+    <title>Admin</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body{ font: 14px sans-serif; text-align: center; }
@@ -131,7 +131,10 @@ form {
 
 <body>
 
-    <h2 style="border-top: 3px solid gray; padding-top: 1%;" class="my-5">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>! You can manage announcements here.</h2>
+    <h1>ANNOUNCEMENTS MANAGEMENT</h1>
+    <h2 style="border-top: 3px solid gray; font-size: 23px; font-weight: bold; padding-top: 1%;" class="my-5">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>! You can manage announcements here. 
+        <br>To manage services, <a href="manageservices.php">click here.</a>
+        <br>To edit brgy. officials, <a href="manageofficials.php">click here. </a> </h2>
 
 
     <?php $results = mysqli_query($link, "SELECT * FROM announcements order by id desc"); ?>
@@ -154,7 +157,7 @@ form {
                 <a href="admin.php?editannounce=<?php echo $row['id']; ?>" class="edit_btn" >Edit</a>
             </td>
             <td>
-                <a href="edit.php?delannounce=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure to delete this account?');" class="del_btn">Delete</a>
+                <a href="edit.php?delannounce=<?php echo $row['id']; ?>" onclick="return confirm('Are you sure to delete this announcement?');" class="del_btn">Delete</a>
             </td>
         </tr>
     <?php } ?>

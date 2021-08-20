@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<?php include '../SuperAdmin/config.php'?>
 <head>
 	<meta charset="utf-8">
 	<title>Official Website of Pasong Camachile II</title>
@@ -27,12 +28,18 @@
 <div class="collapse" id="collapseExample">
   <div class="card card-body">
   	<h4>
-    • Urban agriculture (tree planting) <br>
-	• Punlaan sa barangay <br>
-	• Gulayan sa bahay <br>
-	• Gulayan sa paaralan <br>
-	• Gulayan sa simbahan <br>
-	• Sibol para sa kabataan <br>
+
+
+    <?php $results = mysqli_query($link, "SELECT * FROM services where type like '%under%' order by id"); ?>
+
+    <?php while ($row = mysqli_fetch_array($results)) { ?></td>
+        </tr>
+        <tr>
+            <td><li><?php echo $row['title']; ?></li></td>
+          </tr>
+    <?php } ?>
+
+
 	</h4>
   </div>
 </div>
@@ -53,12 +60,18 @@
 <div class="collapse" id="collapseExample3">
   <div class="card card-body">
   	<h4>
-    • Cctv <br>
-	• Streetlights <br>
-	• Deep well (Poso) <br>
-	• Public address system <br>
-	• Mamamayan Kontra Basura(MKB) <br>
-  <a href="#" class="" data-toggle="modal" data-target="#myModal">Open Modal</a>
+
+
+    <?php $resultz = mysqli_query($link, "SELECT * FROM services where type like '%project%' order by id"); ?>
+
+    <?php while ($row = mysqli_fetch_array($resultz)) { ?></td>
+        </tr>
+        <tr>
+            <td><li><?php echo $row['title']; ?></li></td>
+          </tr>
+    <?php } ?>
+
+
 	</h4>
   </div>
 </div>

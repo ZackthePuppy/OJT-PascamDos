@@ -18,6 +18,20 @@ CREATE TABLE announcements (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
+CREATE TABLE services (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(200),
+    type VARCHAR(200),
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE officials (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    title varchar (255),
+    content LONGTEXT NOT NULL,
+    facebook varchar (255)
+);
+
 
 ACCOUNTS:
 admingheve

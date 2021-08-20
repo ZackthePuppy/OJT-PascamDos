@@ -60,10 +60,10 @@ ul, ol {
         <div class="container">
           <div class="row row-30">
             <div class="col-md-4 col-xl-5">
-              <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="../CSS/logo.png" alt="" width="100" height="100" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+              <div class="pr-xl-4"><a class="brand" href="../Home/home.php"><img class="brand-logo-light" src="../CSS/logo.png" alt="" width="100" height="100" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
                 <p>We are a MOST CHILD-FRIENDLY barangay and we are very happy to serve you!</p>
                 <!-- Rights-->
-                <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span>Bengking & ZTP</span><span>. </span><span>All Rights Reserved.</span></p>
+                <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span>OJTeam</span><span>. </span><span>Developed by <a href="https://www.facebook.com/im.zack.the.puppy/" target="_blank">Mayk</a></span></p>
               </div>
             </div>
             <div class="col-md-4">
